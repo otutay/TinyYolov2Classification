@@ -1,7 +1,9 @@
 # TinyYolov2Classification
 
 Pytorch implementation of tiny-yolov2 imagenet 1K results. I will share different LR schedule and theirs performance metrics.
-All of the below results ADAM optimizer is used with a Batch size of 210, total epoch num = 40. Data augmentation and lr is changed across trials. 
+From 1-7 of the below results ADAM optimizer is used with a Batch size of 210, total epoch num = 40. From 8-10 of the results trained with ADAM batch size of 64.
+
+Data augmentation and lr is changed across trials. 
 Ryzen 1700x with single gtx 1080,python3.6,pytorch v1 are used in all trials.
 #### Result 1 ####
 - best top5 is around %67. For data augmentation only randomCrop,Resize, horizontal flip are applied.
