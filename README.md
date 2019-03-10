@@ -59,6 +59,29 @@ optim.Adam(net.parameters(), lr=args.lr,weight_decay=0.001)
   LR rate is aggresively changed. first %50 iteration, lr is fixed at 0.012. consecutive %10 increased to 0.024. and then cosine annehealing is applied for the rest.
  ![alt text](https://github.com/otutay/TinyYolov2Classification/blob/master/Result/Result7.png)
  
+ #### Result 8 ####
+  top5 = 76.13
+  Lr = 0.008,
+  BatchSize = 64
+  LR rate is aggresively changed. 
+ ![alt text](https://github.com/otutay/TinyYolov2Classification/blob/master/Result/Result8.png)
+ 
+ #### Result 9 ####
+  top5 = 77.81
+  Lr = 0.006,
+  BatchSize = 64
+  LR rate is aggresively changed. 
+ ![alt text](https://github.com/otutay/TinyYolov2Classification/blob/master/Result/Result9.png)
+ 
+ #### Result 10 ####
+  top5 = 75.5
+  Lr = 0.012,
+  BatchSize = 64
+  LR rate is aggresively changed. 
+ ![alt text](https://github.com/otutay/TinyYolov2Classification/blob/master/Result/Result10.png)
+ 
+ 
+ 
  
 
 
