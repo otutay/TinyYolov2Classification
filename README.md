@@ -70,7 +70,7 @@ optim.Adam(net.parameters(), lr=args.lr,weight_decay=0.001)
   top5 = 77.81
   Lr = 0.006,
   BatchSize = 64
-  LR rate is aggresively changed. 
+  LR rate is aggresively changed. Best result I had. Have some overfitting in training data.
  ![alt text](https://github.com/otutay/TinyYolov2Classification/blob/master/Result/Result9.png)
  
  #### Result 10 ####
